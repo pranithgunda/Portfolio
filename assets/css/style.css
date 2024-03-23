@@ -166,6 +166,7 @@ margin-right:-10.25%;
 
 #Contact{
     width:20%;
+    height:auto;
     text-align:end;
     margin-right:1%;
     margin-top:1.5%
@@ -185,4 +186,21 @@ margin-right:-10.25%;
 
 div nav a{
     color:var(--darkbgcolor);
+}
+
+/* Media queries to adjust entire portfolio according to screen resolution */
+
+@media screen and (max-width:1098px) {
+    
+    main{
+        display:block;
+    }
+
+    #WorkInfo{
+        display:block;
+    }
+
+    nav ul{
+        display:block;
+    }
 }
