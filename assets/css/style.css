@@ -57,6 +57,41 @@ img{
     object-fit:cover;
 }
 
-/* div img */
+div img{
+    border-radius:8px;
+    height:auto;
+    width:150px;
+    object-fit: contain;
+}
 
 /* .container */
+
+main{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:1%;
+}
+
+#AboutMe{
+    width:20%;
+    height:auto;
+    text-align:end;
+    margin-right:1%;
+}
+
+#AboutMeInfo
+{
+    width:70%;
+    height:auto;
+    padding:20px;
+    border-left: solid;
+    border-color:var(--darkbgcolor);
+    border-width: thick;
+
+}
+
+p{
+    font-size: medium;
+    line-height: 1.5;
+}
+
