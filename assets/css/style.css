@@ -163,3 +163,26 @@ margin-right:-10.25%;
     background-color: var(--lightbgcolor);
 
 }
+
+#Contact{
+    width:20%;
+    text-align:end;
+    margin-right:1%;
+    margin-top:1.5%
+}
+
+#ContactInfo
+{
+    width:70%;
+    height:auto;
+    padding:20px;
+    border-left:solid;
+    border-color:var(--darkbgcolor);
+    border-width:thick;
+    margin-top:1.5%;
+
+}
+
+div nav a{
+    color:var(--darkbgcolor);
+}
