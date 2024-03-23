@@ -59,12 +59,14 @@ img{
 
 div img{
     border-radius:8px;
-    height:auto;
+    height:150px;
     width:150px;
-    object-fit: contain;
 }
 
-/* .container */
+.container{
+    width:100%;
+    object-fit:cover;
+}
 
 main{
     display:flex;
@@ -72,12 +74,15 @@ main{
     margin-top:1%;
 }
 
+/* Styling for About Me div to position left hand side */
 #AboutMe{
     width:20%;
     height:auto;
     text-align:end;
     margin-right:1%;
 }
+
+/* Styling for About Me detailed introduction to position righ hand side of About Me */
 
 #AboutMeInfo
 {
@@ -95,3 +100,66 @@ p{
     line-height: 1.5;
 }
 
+/* Styling for Work div to position left hand side */
+#Work{
+    width:20%;
+    height:auto;
+    text-align:end;
+    margin-right:1%;
+    margin-top:1.5%;
+}
+
+/* Styling for Work Info to be positioned right hand sie */
+
+#WorkInfo{
+    width:75%;
+    height:30%;
+    padding:20px;
+    border-left:solid;
+    border-color:var(--darkbgcolor);
+    border-width: thick;
+    margin-top:1.5%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+/* Styling for Main Project Card */
+
+#MainProjectCard{
+    display:flex;
+    width:71.5%;
+    height:30%;
+    border:solid;
+    border-radius:8px;
+    margin:10px;
+}
+
+/* Project Card Header, that holds description of Project */
+
+#ProjectCardHeader{
+position:relative;
+width:100px;
+height:50px;
+text-align:center;
+background-color:var(--darkbgcolor);
+color:var(--lightfont);
+padding-top:12.5px;
+text-decoration:none;
+font-size:13.28px;
+font-weight:bold;
+margin-top:22px;
+margin-right:-10.25%;
+}
+
+#OtherProjectCards{
+    display:flex;
+    width:35%;
+    height:30%;
+    border:solid;
+    border-radius:8px;
+    margin:10px;
+    background-color: var(--lightbgcolor);
+
+}
