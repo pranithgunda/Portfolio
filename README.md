@@ -14,7 +14,7 @@ After implementing this portfolio, I am now more confident on how to structure w
 
 ## Link to deployed site
 
-Coming Soon
+https://pranithgunda.github.io/Portfolio/
 
 
 
